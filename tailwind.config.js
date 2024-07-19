@@ -5,7 +5,11 @@ module.exports = {
     './public/index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        13:'3.5rem'
+      }
+    },
   },
   plugins: [],
 };
